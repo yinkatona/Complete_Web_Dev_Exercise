@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="complete_web.css">
+    <title>complete web development</title>
+
+</head>
+<body id="top">
+  <header>
+    <nav>
+    <ul>
+        <!-- header link -->
+        <li class="link"><a href="complete_web_dev.html">Home</a></li>
+        <li class="link"><a href="About.html" target="_blank">About</a></li>
+        <li class="link"><a href="register.html" target="_blank">Register</a></li>
+        <li class="link"><a href="startbuzz.html" target="_blank">Shop</a></li>
+        <li class="link"><a href="Wildlife.html" target="_blank">Wildlife</a></li>
+    </ul>
+    </nav>
+</header>
+    <main>
+      <section>
+        <h1>Just another reminder</h1>
+    <!-- HTML test Formatting -->
+   <p><strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, voluptate. Dolore asperiores similique atque illum, mollitia nemo ipsa nostrum, eos vel nobis earum laboriosam numquam explicabo. Libero esse quis reprehenderit?</strong></p>
+    <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil perferendis repellat ut magnam? Veritatis, at! Possimus voluptatibus optio minima assumenda ea. Doloribus libero veritatis explicabo laborum, molestiae nam voluptas quisquam.</em></p>
+    <p><mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident dicta tenetur illo cupiditate saepe necessitatibus deserunt itaque obcaecati. Quis nobis tempore error voluptate optio alias tenetur impedit mollitia a.</mark></p>
+    <p><ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio assumenda aliquam quibusdam molestiae quisquam quam doloribus pariatur reprehenderit ut nulla, laborum quasi, et omnis id quia non accusamus veritatis.</ins></p>
+    <p><del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum doloribus sapiente voluptatem perferendis ipsum vel rerum porro reiciendis nisi. Quia a pariatur dicta sint blanditiis rerum suscipit dignissimos reprehenderit assumenda.</del></p>
+    <p><sub>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi laborum necessitatibus fuga aut? Facere magnam ex nam odit et, asperiores quasi voluptate, saepe minus veniam mollitia dolorem illum dicta!</sub> qui officia<sup>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro quaerat laborum obcaecati voluptas nobis odit ex voluptatibus officiis voluptatem ipsum atque explicabo doloribus perspiciatis, dolor reiciendis quibusdam mollitia ipsa!</sup>  id est laborum.</p>
+    <hr>
+    <p><h3>Make up list</h3></p>
+    <ul>
+        <li>mango</li>
+        <li>orange</li>
+        <li>sugar cane</li>
+        <li>rice </li>
+            <ul>
+                <!-- Naija jollof is the best -->
+            <li>jollof</li>
+            <li>boiled rice</li>
+            <li>fried rice</li>
+        </ul>
+    </ul>
+    <hr>
+    <ol type="A">
+        <li>chicken</li>
+        <li>beef</li>
+        <li>shrimbs</li>
+        <li>turkey</li>
+        <ol reversed="">
+            <li>wings</li>
+            <li>laps</li>
+            <li>breast</li>
+        </ol>
+    </ol>
+      </section>
+    <hr>
+    <section>
+      <h3>Forms</h3>
+    <form action="Post" method="POST">
+      <fieldset>
+        <legend>Your Detail</legend>
+   <p><label for="firstname" class="textlabel">First Name:</label><input type="text" placeholder="your firstname " required autofocus name="firstname"/></p>
+   <p><label for="lastname" class="textlabel">Last Name:</label><input type="text" placeholder="your lastname " required autofocus name="lastname"/></p>
+   <p><label for="email" class="textlabel">Email:</label><input type="email" placeholder="your email " required name="email" /></p>
+   <p><label for="password" class="textlabel">Password:</label><input type="password" placeholder="your password" required minlength="4"></p>
+   <p><label for="gender" class="textlabel">Gender:</label><br>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+    <input type="radio" name="gender" value="others">Others</p>
+   <p><label for="tribe" class="textlabel">Tribe:</label><br>
+    <input type="radio" name="tribe" value="yoruba">Yoruba
+    <input type="radio" name="tribe" value="hausa">Hausa
+    <input type="radio" name="tribe" value="igbo">Igbo</p>
+   <p><label for="pets" class="textlabel">Pets:</label><br>
+    <input type="checkbox" name="pets" value="dogs">Dog
+    <input type="checkbox" name="pets" value="cats">Cat
+    <input type="checkbox" name="pets" value="horse">Horse</p>
+   <p><label for="quantity" class="textlabel">Quantity:</label><input type="range" placeholder="your choice" min="1" max="10"/></p>
+   <p><label for="appoitmentdate:" class="textlabel">Appoitment Date:</label><input type="date" name="appointment" value="date"></p>
+   <p><input type="submit" value="Register">
+    <input type="reset"></p>
+  </fieldset>
+  </form>
+    </section>
+    
+    <hr>
+    <section>
+      <h3>Links</h3>
+    <p>Absolute Links</p>
+    <!-- Absolute Link -->
+    <a href="http://www.google.com" target="_blank">google here</a>
+    <!-- Purely Realtive -->
+    <p>Relative Links</p>
+    <p><a href="back_to_the_matter.html">new page</a></p>
+    <p><a href="register.html">To register click here</a></p>
+    <p>Anchor Links</p>
+    <p><a href="#top">go up</a></p>
+    <hr>
+    <div class="media">
+      <h2>This is just to test media querry</h2>
+    </div>
+    </section>
+    
+    <!-- This is group the div into section but does not affect the rendering of the page -->
+    <section>
+      <img src="imagesWeb\trees.jpg" class="right">
+      <div id="div1">
+        <p class="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+            <img src="imagesWeb/woman.jpg" class="left">
+          <div id="div2">
+          <p class="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis <span>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</span>
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <img src="imagesWeb/patrick-tomasso-151382-unsplash.jpg" class="right2">
+      <div id="div3">
+        <p class="webtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+        <p class="webtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+      </div> 
+      <div class="moveup">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit nisi placeat consequuntur sunt sapiente repudiandae voluptates quibusdam autem vitae, praesentium minus corporis magnam possimus harum, nemo vero facilis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus veritatis incidunt, quis, vero quibusdam molestiae molestias iusto et a magnam quo enim nobis esse maiores? Unde ipsa sapiente debitis.</p>
+      </div>
+        
+   
+    </section>
+   </main>
+
+    <footer>website made with love </footer>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="complete_web.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="js/highlight/styles/github.css" />
+     -->
+</head>
+<body id="gig">
+    <h1>Contact Info </h1>
+    <form id="mainform" action="#" method="POST">
+        <fieldset class="box">
+          <legend>Your Details</legend>
+          <div>
+              <p>
+                  <label class="textlabel" for="firstNameInput">First Name</label>
+                  <input id="firstNameImput" name="FirstName" type="text"  required class="textimput" placeholder="Your first Name" maxlength="20"/>
+                </p>
+                <p>
+                    <label class="textlabel" for="lastNameInput">Last Name</label>
+                    <input id="lastNameImput" name="LastName" type="text" required  class="textimput" placeholder="Your Surname" maxlength="20"/>
+                  </p>
+                  <p>
+                      <label class="textlabel" for="email">Email</label>
+                    <input id="emailInput" name="Email" type="email" required  class="textimput" placeholder="youremail@example.com" />
+                    </p>
+                    <p>
+                        <label class="textlabel" for="streetInput">Street</label>
+                    <input id="streetInput" name="Street" type="text" required    class="textimput" placeholder="Your Street address"/>
+                      </p>
+                      <p>
+                          <label class="textlabel" for="numberInput">Number</label>
+                    <input id="firstNameImput" name="Number" type="text" required  class="textimput" placeholder="Your House Number"/>
+                        </p>
+                        <p>
+                            <label class="textlabel" for="zipInput">ZIP Code</label>
+                    <input id="zipInput" name="zip" type="text" required  class="textimput" placeholder="your Zip Code"/>
+                          </p>
+                          <p>
+                              <label class="textlabel" for="cityInput">City</label>
+                    <input id="cityImput" name="CityName" type="text" required   class="textimput" placeholder="Your State"/>
+                            </p>
+                            <p>
+                                <label class="textlabel" for="countryInput">Country</label>
+                                <input id="countryImput" name="Country" type="text" required  class="textimput" placeholder="Your Country"  pattern="[A-Za-z{3}"/>
+                              </p>
+    
+                              <p>
+                                  <label class="textlabel" for="phoneInput">Phone Number</label>
+                                  <input id="cityImput" name="PhoneNumber " type="text" required  class="textimput" placeholder="Phone Number"/>
+                                </p>
+                                <p>
+                                    <label class="textlabel" for="blogInput">Blog</label>
+                                    <input id="blogInput" name="Blog " type="url" required  class="textimput" placeholder="Your Blog Address"/>
+                                  </p>
+                                  <p>
+                                      <label class="textlabel" for="remarkInput">Remark</label>
+                                      <input id="remarkImput" name="Remark " type="text" placeholder="Optional"  class="textimput"/>
+                                    </p>
+          </div>
+          </fieldset>
+    
+          <br/>
+    
+          <fieldset class="box">
+            <legend>Your Order</legend>
+            <div>
+            <p>
+                <label class="textlabel" for="deliveryDateInput">Delivery Date</label>
+                <input id="deliveryDateImput" name="BirthDate " type="date" required class="textimput"/>
+              </p>
+              <p>
+                  <label class="textlabel" for="colorInput">Wrapping Paper</label>
+                  <input id="colorImput" name="Color " type="color" required   class="textimput"/>
+                </p>
+                <p>
+                    <label class="textlabel" for="bowInput">How Many Bows on The Package </label>
+                    <input id="bowImput" name="Bows " type="number" required class="textimput" min="1" max="10"
+                    />
+                </p>
+          </fieldset>
+          <p>
+    
+              <input id="submitImput" type="submit"   value="Place Order"/>
+            </p>
+    
+          </form>
+
+
+    <!-- use POST not GET  -->
+    <!-- <form method="post" autofocus id="design">
+        <fieldset>
+            <legend>Your details</legend>
+    <p>First Name:<input type="text" placeholder="your firstname" required name="firstname" pattern="[A-Za-z{3}" maxlength="30"></p>
+
+    <div class="invalid">The required name does not need special character</div>
+
+    <p>Surname:<input type="text" placeholder="your surname" required name="surname"></p>
+
+    <p>Email:<input type="email" placeholder="your email" required name="email"></p>
+
+    <p>password:<input type="password" name="password" minlength="5" required ></p>
+
+    <p>Birthdate:<input type="date" required placeholder="your birthdate"></p>
+
+    <p>Gender:
+        male:<input type="radio" name="gender" value="male">
+        famale:<input type="radio" name="gender" value="female">
+        other<input type="radio" name="gender" value="other">
+
+    <p>Pets:
+    Dog<input type="checkbox" name="Dog">
+    Cat<input type="checkbox" name="Cat">
+    Birds<input type="checkbox" name="Bird">
+    None<input type="checkbox" name="None"></p>
+
+    <p><input type="submit" value="Register">
+    <input type="reset" value="Reset"></p>
+  </fieldset>
+</form>
+ -->
+
+    <video controls poster="imagesWeb/bbb.png" width="900">
+        <source src="media/big_buck_bunny.webm">
+        <source src="media/big_buck_bunny.mp4">
+        <source src="media/big_buck_bunny.ogv">
+    </video>
+    <br><br>
+    <audio controls>
+        <source src="PolymorphicPodcast-clip.mp3">
+        <source src="PolymorphicPodcast-clip.wav">
+        <source src="PolymorphicPodcast-clip.ogg">
+    </audio>
+
+    <script src="js/modernizr.min.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/highlight/highlight.pack.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
+
+
+
+
+
+
+
